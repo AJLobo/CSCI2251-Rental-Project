@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.cnm.group5</groupId>
-    <artifactId>rentalProject</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <artifactId>rental-project</artifactId>
+    <version>1.0</version>
     <dependencies>
         <dependency>
             <groupId>io.javalin</groupId>
-            <artifactId>javalin</artifactId> <!-- For handling http-requests -->
+            <artifactId>javalin</artifactId>
             <version>3.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId> <!-- For logging -->
+            <artifactId>slf4j-simple</artifactId>
             <version>1.7.26</version>
         </dependency>
     </dependencies>
